@@ -117,3 +117,12 @@ Distributed under the [MIT](https://github.com/Dixon3991/cardgame/blob/9d0445779
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+* [Deck of Cards API](http://deckofcardsapi.com/api/)
+* []()
+* []()
+
+<p align="right">(<a href="#top">back to top</a>)</p>
