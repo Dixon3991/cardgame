@@ -30,6 +30,7 @@
 * [Express.js](https://expressjs.com/)
 * [Node.js](https://nodejs.org/en/)
 * [Bootstrap](https://getbootstrap.com)
+* [Heroku](https://www.heroku.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
