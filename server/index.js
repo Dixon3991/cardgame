@@ -4,6 +4,7 @@ const jwt = require('jsonwebtoken');
 
 // jwt secret
 // TO DO: Change JWT_SECRET
+// https://jwt.io/
 const JWT_SECRET = 'WIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c';
 
 const io = require("socket.io")(http, {
