@@ -1,7 +1,14 @@
-export class Deck {
+import { Card } from './card';
+
+export class CardDeck {
     success: boolean;
     deck_id: string;
-    shuffled: boolean;
-    remaining: number;
+    cards?: Card[];
+    shuffled?: boolean;
+    remaining?: number;
+
+};
+
+export class CardDraw {
 
 };
