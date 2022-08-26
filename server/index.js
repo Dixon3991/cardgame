@@ -1,6 +1,36 @@
-const express = require('express');
-const path = require('path');
-const http = require('http');
-const bodyParser = require('body-parser');
+const app = require('express')();
+const http = require('http').createServer(app);
+const io = require("socket.io")(http, {
+	cors: {
+		origins: [
+			"http://localhost:3001",
+			"http://localhost:4200",
+			"http://localhost:8080",
+		],
+	},
+});
 
-const app = express();
+io.use((socket, next) => {
+  const token = socket.handshake.auth.token;
+  console.log('token', token);
+  next();
+});
+
+app.get('/', (req, res) => {
+  res.send('<h1>Cardgame</h1>');
+});
+
+io.on('connection', (socket) => {
+  console.log('a user connected');
+  socket.on('disconnect', () => {
+    console.log('user disconnected');
+  });
+  socket.on('my message', (msg) => {
+    console.log('message: ' + msg);
+    io.emit('my broadcast', `server: ${msg}`);
+  });
+});
+
+http.listen(3000, () => {
+  console.log('listening on *:3000');
+});
