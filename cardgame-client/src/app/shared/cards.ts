@@ -1,3 +1,4 @@
+import { CardImage } from '../models/card';
 import { CardDeck } from '../models/card-deck';
 
 export const CARDS: CardDeck[] = [
@@ -529,3 +530,6 @@ export const CARDS: CardDeck[] = [
         "remaining":0
     }
 ];
+
+
+export const CARDIMAGES: CardImage[] = [{'src': '/assets/images/10C.png'}, {'src': '/assets/images/10D.png'}, {'src': '/assets/images/10H.png'}, {'src': '/assets/images/10S.png'}, {'src': '/assets/images/2C.png'}, {'src': '/assets/images/2D.png'}, {'src': '/assets/images/2H.png'}, {'src': '/assets/images/2S.png'}, {'src': '/assets/images/3C.png'}, {'src': '/assets/images/3D.png'}, {'src': '/assets/images/3H.png'}, {'src': '/assets/images/3S.png'}, {'src': '/assets/images/4C.png'}, {'src': '/assets/images/4D.png'}, {'src': '/assets/images/4H.png'}, {'src': '/assets/images/4S.png'}, {'src': '/assets/images/5C.png'}, {'src': '/assets/images/5D.png'}, {'src': '/assets/images/5H.png'}, {'src': '/assets/images/5S.png'}, {'src': '/assets/images/6C.png'}, {'src': '/assets/images/6D.png'}, {'src': '/assets/images/6H.png'}, {'src': '/assets/images/6S.png'}, {'src': '/assets/images/7C.png'}, {'src': '/assets/images/7D.png'}, {'src': '/assets/images/7H.png'}, {'src': '/assets/images/7S.png'}, {'src': '/assets/images/8C.png'}, {'src': '/assets/images/8D.png'}, {'src': '/assets/images/8H.png'}, {'src': '/assets/images/8S.png'}, {'src': '/assets/images/9C.png'}, {'src': '/assets/images/9D.png'}, {'src': '/assets/images/9H.png'}, {'src': '/assets/images/9S.png'}, {'src': '/assets/images/AC.png'}, {'src': '/assets/images/AD.png'}, {'src': '/assets/images/AH.png'}, {'src': '/assets/images/AS.png'}, {'src': '/assets/images/JC.png'}, {'src': '/assets/images/JD.png'}, {'src': '/assets/images/JH.png'}, {'src': '/assets/images/JS.png'}, {'src': '/assets/images/KC.png'}, {'src': '/assets/images/KD.png'}, {'src': '/assets/images/KH.png'}, {'src': '/assets/images/KS.png'}, {'src': '/assets/images/QC.png'}, {'src': '/assets/images/QD.png'}, {'src': '/assets/images/QH.png'}, {'src': '/assets/images/QS.png'}];
