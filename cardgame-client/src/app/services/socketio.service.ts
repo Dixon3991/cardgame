@@ -7,15 +7,14 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'
 })
 export class SocketioService {
-
   socket;
 
   constructor() {   }
 
-  setupSocketConnection() {
+  setupSocketConnection(token: string) {
     this.socket = io(environment.SOCKET_ENDPOINT, {
       auth: {
-        token: "abc"
+        token
       }
     });
 
