@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder } from '@angular/forms';
-import { Player } from '../models/player';
-import { SENDER } from '../shared/players';
-import { SocketioService } from '../services/socketio.service';
+import { Player } from '../../models/player';
+import { SENDER } from '../../shared/players';
+import { SocketioService } from '../../services/socketio.service';
 
 @Component({
   selector: 'app-game-room',
