@@ -7,17 +7,21 @@ import { DeckOfCardsService } from './services/deck-of-cards.service';
 import { SocketioService } from './services/socketio.service';
 
 import { ReactiveFormsModule } from '@angular/forms';
-import { GameRoomComponent } from './game-room/game-room.component';
+import { GameRoomComponent } from './components/game-room/game-room.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GameRoomComponent
+    GameRoomComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgbModule
   ],
   providers: [
     SocketioService,

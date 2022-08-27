@@ -1,1 +1,37 @@
-/* You can add global styles to this file, and also import other style files */
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap-social/bootstrap-social.css';
+@import '~font-awesome/scss/font-awesome';
+
+
+$fa-font-path : '~font-awesome/fonts';
+
+/* Page Layout and Structure */
+html,
+body {
+  height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+#main-container {
+    min-height: 100%;
+}
+  
+#content-container {
+    overflow: auto;
+    padding-bottom: 180px;
+    /* must be same height as the footer */
+}
+
+#footer-container {
+    position: relative;
+    margin-top: -180px;
+    /* negative value of footer height */
+    height: 180px;
+    clear: both;
+}

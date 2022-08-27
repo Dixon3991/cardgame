@@ -5,3 +5,7 @@ export class Card {
     code: string;
 
 };
+
+export class CardImage {
+    src: string;
+}
