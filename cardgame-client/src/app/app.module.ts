@@ -8,6 +8,7 @@ import { SocketioService } from './services/socketio.service';
 
 import { ReactiveFormsModule } from '@angular/forms';
 import { GameRoomComponent } from './game-room/game-room.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { GameRoomComponent } from './game-room/game-room.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgbModule
   ],
   providers: [
     SocketioService,
