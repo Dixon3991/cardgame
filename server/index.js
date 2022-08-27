@@ -19,7 +19,7 @@ const io = require("socket.io")(http, {
 });
 
 app.get('/', (req, res) => {
-  res.send('<h1>Card Game</h1>');
+  res.send('<h1>Cardgame Room</h1>');
 });
 
 io.use(async (socket, next) => {
