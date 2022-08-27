@@ -4,6 +4,7 @@ const jwt = require('jsonwebtoken');
 
 // jwt secret
 // TO DO: Change JWT_SECRET
+// https://jwt.io/
 const JWT_SECRET = 'WIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c';
 
 const io = require("socket.io")(http, {
@@ -18,7 +19,7 @@ const io = require("socket.io")(http, {
 });
 
 app.get('/', (req, res) => {
-  res.send('<h1>Card Game</h1>');
+  res.send('<h1>Cardgame Room</h1>');
 });
 
 io.use(async (socket, next) => {

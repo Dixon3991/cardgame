@@ -3,16 +3,26 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DeckOfCardsService } from './services/deck-of-cards.service';
+import { SocketioService } from './services/socketio.service';
+
+import { ReactiveFormsModule } from '@angular/forms';
+import { GameRoomComponent } from './game-room/game-room.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GameRoomComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
-  providers: [],
+  providers: [
+    SocketioService,
+    DeckOfCardsService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
