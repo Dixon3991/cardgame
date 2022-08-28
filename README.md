@@ -2,14 +2,23 @@
 <br />
 <div align="center">
   <a href="https://github.com/Dixon3991/cardgame">
-    <img src="doc/logo/logo80x80.png" alt="Logo" width="80" height="40">
+    <img src="doc/logo/logo80x40.png" alt="Logo" width="80" height="40">
   </a>
 
 <h3 align="center">Card Game</h3>
 <p align="center">
     Play cardgames with friends
-<br />
-
+    <br />
+    <!--<a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/github_username/repo_name">View Demo</a>-->
+    ·
+    <a href="https://github.com/Dixon3991/cardgame/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Dixon3991/cardgame/issues">Request Feature</a>
+  </p>
+</div>
 
 
 <!-- ABOUT THE PROJECT -->
@@ -122,7 +131,5 @@ Distributed under the [MIT](https://github.com/Dixon3991/cardgame/blob/9d0445779
 ## Acknowledgments
 
 * [Deck of Cards API](http://deckofcardsapi.com/api/)
-* []()
-* []()
 
 <p align="right">(<a href="#top">back to top</a>)</p>
