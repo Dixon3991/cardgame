@@ -9,10 +9,10 @@
 <p align="center">
     Play cardgames with friends
     <br />
-    <!--<a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Dixon3991/cardgame"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>-->
+    <a href="https://github.com/Dixon3991/cardgame">View Demo</a>
     ·
     <a href="https://github.com/Dixon3991/cardgame/issues">Report Bug</a>
     ·
@@ -37,11 +37,8 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -50,8 +47,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![Product Screen Shot Placeholder](https://github.com/Trianglium/Best-README-Template/raw/master/images/screenshot.png)
 
 <!-- Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description` -->
 
@@ -145,7 +141,7 @@ Distributed under the [MIT](https://github.com/Dixon3991/cardgame/blob/9d0445779
 
     MIT License
 
-    Copyright (c) 2022 Luke
+    Copyright (c) 2022 Luke Dixon
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
