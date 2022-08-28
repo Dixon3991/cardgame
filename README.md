@@ -6,12 +6,10 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+![Contributors](https://img.shields.io/github/contributors/Dixon3991/cardgame?style=for-the-badge&color=blueviolet)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Dixon3991/cardgame?style=for-the-badge)
+[![GitHub issues](https://img.shields.io/github/issues/Dixon3991/cardgame?style=for-the-badge)](https://github.com/Dixon3991/cardgame/issues)
+[![GitHub license](https://img.shields.io/github/license/Dixon3991/cardgame?style=for-the-badge)](https://github.com/Dixon3991/cardgame/blob/main/LICENSE)
 
 
 <!-- PROJECT LOGO -->
@@ -72,14 +70,13 @@
 
 
 ### Built With
+<div align="center">
 
-* [Angular](https://angular.io/)
-* [Socket.io](https://socket.io/)
-* [Express.js](https://expressjs.com/)
-* [Node.js](https://nodejs.org/en/)
-* [Bootstrap](https://getbootstrap.com)
-* [Heroku](https://www.heroku.com/)
-
+[![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)](https://angular.io/)
+[![Node JS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com)
+[![Heroku](	https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)](https://www.heroku.com/)
+</div>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -184,8 +181,9 @@ Distributed under the [MIT](https://github.com/Dixon3991/cardgame/blob/9d0445779
 ## Acknowledgments
 
 * [Deck of Cards API](http://deckofcardsapi.com/api/)
-* [Bootstrap Social Icons]https://lipis.github.io/bootstrap-social/)
+* [Bootstrap Social Icons](https://lipis.github.io/bootstrap-social/)
 * [Font Awesome](https://fontawesome.com/)
 * [Best README Template](https://github.com/othneildrew/Best-README-Template)
+* [Shields.io](https://shields.io/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
