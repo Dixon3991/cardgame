@@ -1,21 +1,35 @@
 #! /bin/bash
 
 
-function compileCardGame52() {
+function clean() {
     exe_file="Source.exe"
     if [ -f $exe_file ] 
     then
         rm ./Source.exe;
-        echo "Removed (old) Source.exe"
-    else
         echo "Cleaned"
+    else
+        echo "Clean"
     fi
+}
+
+function make() {
     echo "Starting compilation.."
     g++ -o Source ./Card.cpp ./Source.cpp ./Deck.cpp;
     echo "Compilation complete!"
+}
+
+function run() {
     echo "Running compiled code.."
     ./Source;
 
 }
 
-compileCardGame52
+
+function setUp() {
+    clean 
+    make
+    run
+
+}
+
+setUp
