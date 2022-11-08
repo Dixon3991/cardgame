@@ -32,6 +32,7 @@ void Deck::Print()
         card -> Print();
         std::cout << " ";
     }
+    std::cout << std::endl << std::endl;
 }
 
 void Deck::Shuffle()
