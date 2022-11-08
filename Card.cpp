@@ -1,5 +1,6 @@
 #include "Card.h"
 #include <iostream>
+#include "TColor.h"
 
 Card::Card(Ranks RANK, Suits SUIT)
     : Rank(RANK),
@@ -48,11 +49,11 @@ void Card::Print()
 
 
     if (Suit == HEARTS)
-        std::cout << "♥";
+        print("♥", color_red, color_white);
     else if (Suit == DIAMONDS)
-        std::cout << "♦";
+        print("♦", color_red, color_white);
     else if (Suit == CLUBS)
-        std::cout << "♣";
+        print("♣", color_black, color_white);
     else
-        std::cout << "♠";
+        print("♠", color_black, color_white);
 }
