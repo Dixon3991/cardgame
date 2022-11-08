@@ -1,25 +1,41 @@
 #! /bin/bash
+RED="31m"
+GREEN="32m"
+LIGHTCYAN="96m"
+LIGHTGRAY="37m"
+GRAY="90m"
 
+BOLD="\e[1;"
+ITALIC="\e[3;"
+
+STARTCOLOR="\e["
+ENDCOLOR="\e[0m"
 
 function clean() {
     exe_file="Source.exe"
-    if [ -f $exe_file ] 
+    compiled_file="Source"
+    if [ -f $exe_file ]
     then
         rm ./Source.exe;
-        echo "Cleaned"
+        echo -e "${ITALIC}${GREEN}Cleaned ✓${ENDCOLOR}"
+    elif [ -f $compiled_file ] 
+    then
+        rm ./Source;
+        echo -e "${ITALIC}${GREEN}Cleaned ✓${ENDCOLOR}"
     else
-        echo "Clean"
+        echo -e "${ITALIC}${LIGHTCYAN}Clean ✓${ENDCOLOR}"
     fi
 }
 
 function make() {
-    echo "Starting compilation.."
+    echo -e "${ITALIC}${GRAY}Starting compilation...${ENDCOLOR}"
     g++ -o Source ./Card.cpp ./Source.cpp ./Deck.cpp;
-    echo "Compilation complete!"
+    echo -e "${ITALIC}${GREEN}Compilation complete! ✓${ENDCOLOR}"
 }
 
 function run() {
-    echo "Running compiled code.."
+    echo -e "${ITALIC}${GRAY}Running compiled code..${ENDCOLOR}"
+    echo ""
     ./Source;
 
 }
@@ -29,7 +45,6 @@ function setUp() {
     clean 
     make
     run
-
 }
 
 setUp
