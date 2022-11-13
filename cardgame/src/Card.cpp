@@ -49,11 +49,11 @@ void Card::Print()
 
 
     if (Suit == HEARTS)
-        print("♥", color_red, color_white);
+        print("\u2665", color_red, color_white);
     else if (Suit == DIAMONDS)
-        print("♦", color_red, color_white);
+        print("\u2666", color_red, color_white);
     else if (Suit == CLUBS)
-        print("♣", color_black, color_white);
+        print("\u2663", color_black, color_white);
     else
-        print("♠", color_black, color_white);
+        print("\u2660", color_black, color_white);
 }
